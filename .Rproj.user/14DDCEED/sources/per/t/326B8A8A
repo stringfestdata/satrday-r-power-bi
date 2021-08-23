@@ -1,0 +1,27 @@
+{
+    "id": "326B8A8A",
+    "path": "~/GitHub/satrday-r-power-bi/satrday-r-pbi-scripts.R",
+    "project_path": "satrday-r-pbi-scripts.R",
+    "type": "r_source",
+    "hash": "770021730",
+    "contents": "",
+    "dirty": false,
+    "created": 1629723769781.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "23,7",
+        "scrollLine": "11"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1629725757,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1629725757017,
+    "read_only": false,
+    "read_only_alternatives": []
+}
