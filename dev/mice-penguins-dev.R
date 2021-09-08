@@ -1,24 +1,22 @@
 # https://datasciencebeginners.com/2018/11/11/a-brief-introduction-to-mice-r-package/
 
+library(palmerpenguins)
 library(mice)
 
-install.packages('VIM')
-library(VIM)
-
-
-sleep <- VIM::sleep
-md.pattern(sleep)
+penguins
 
 # Imputing the values using mice
-imputed_sleep <- mice(sleep, m=5, method = 'pmm', seed = 101)
+imputed_penguins <- mice(penguins, m=5, method = 'pmm', seed = 101)
 
 # checking the summary
-summary(imputed_sleep)
+summary(imputed_penguins)
 
 
 # Get complete data ( 3rd out of 5)
-wholeData <- complete(imputed_sleep,3)
+wholeData <- complete(imputed_penguins, 3)
+view(wholeData)
 
+View(complete(imputed_penguins))
 
 # Building regression model
 model_fit <- with(data = imputed_sleep, exp = lm(BodyWgt ~ BrainWgt + Sleep)) 
