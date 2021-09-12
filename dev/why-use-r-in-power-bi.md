@@ -1,2 +1,3 @@
 - Customization of plots
 - Good way to creep some R into your work 
+- Also show that you can bring data in from R script editor 
