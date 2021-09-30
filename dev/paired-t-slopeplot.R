@@ -1,18 +1,19 @@
-library(psych)
-data(package = 'sat.act')
-
-head(sat.act)
 
 library(Ecdat)
 data
 
 
 
-contestants <- read.csv('C:/RFiles/contestants-3.csv')
+contestants <- read.csv('C:/RFiles/contestants.csv')
 contestants
 
-
+library(tidymodels)
 tidy(t.test(contestants$post, contestants$pre, paired = TRUE, rm.na = TRUE))
+
+
+library(tidyverse)
+
+library(CGPfunctions)
 
 
 contestants %>% 
